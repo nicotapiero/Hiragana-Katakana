@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Japanese_Katakana_TSU.png"
+    />
+
+    <title>Hiragana/Katakana Chart</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h5>Welcome!</h5>
+    you get two freebies-  he, and ri  are identical, and ya ka, se are close
+    
+    <h5>Welcome!</h5>
+    
+    I think mnemonics are great, but the issue is trying to do a 1:1 mapping of images to characters is crazy (most of the time there's no good image, and even when there is, it usually can overlap with a few....). My method uses a few "anchor" characters that have strong mnemonics, and then gets the similar looking ones off of that. That way you get the benefit of having two mnemonics to try to remember, while at the same time not confusing similar looking ones.
+    
+    <h3>
+      keep forgetting "so"...
+      
+      ra, a (to an extent), yu, so, ta (grr), mu, su, e
+      
+      <h1>
+        TE VS TA IS A BAD ONE - BOTH WORK TOO WELL FOR IT
+      </h1>
+      
+      <h2>
+      just gotta memorize me nu (menu! oh wait lol).
+        
+        I failed: ko, nu na ra
+        
+        * e is a super hard one...I thought "oh it's like a i which in spanish is "e" lol
+        * for some reason, I associate "so" more with e than with te
+      </h2>
+      
+      
+      I see, so now they fall into one of three categories:
+      either remember mnemonic directly:
+      
+      k 	か 	 	く 	 	こ
+s 	 	し 	す 	せ 	
+t 	 	 	 	 	
+n 	 	 	 	 	
+h 	 	ひ 	ふ 	へ 	
+m 	 	み 	む 	 	
+      y 	や 	[6] 	ゆ 	[6] 	
+r 	 	 	 	 	
+w 	 	 	[6] 	ゑ 	
+      
+      or learn by word association from their similarities. Genius!!!
+    </h3>
+    
+    day 2: I'm missing Ri (re --- took a while to get it the other way around)/Ke a lot
+
+    <h3>My Mnemonic Chart</h3>
+
+    <a href="https://www.tofugu.com/japanese/hiragana-chart/">Tofugo</a> has an
+    amazing section with three great mnemonic charts, so it's really a matter of
+    picking/choosing which mnemonic helps you out the best. This chart
+    represents the ones that I found helpful.
+    
+    <br/>
+    
+    A good way to see if a mnemonic works for you is to take a test where you only see the character, and see what kind of mnemonic your brain starts reaching for (if any at all!). If you can't recall any - it probably wasn't a good mnemonic
+
+    ALSO take note if you're using the wrong mnemonic completely on a differnt one!
+    <button onclick="javascript:hideImages()" id="hideImagesButton">
+      Hide Images
+    </button>
+    <table>
+      <tr>
+        <td>a</td>
+        <td>
+          ka
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/ka.png?v=1704832658038"
+            class="mnemonics"
+            width="160"
+            height="80"
+          />
+        </td>
+        <td>sa</td>
+        <td>ta</td>
+        <td>na</td>
+        <td>ha</td>
+        <td>ma</td>
+        <td>ya</td>
+        <td>ra</td>
+        <td>wa</td>
+      </tr>
+      <tr>
+        <td>i</td>
+        <td>ki (きき for kiki!, forgot about key...)</td>
+        <td>shi</td>
+        <td>chi</td>
+        <td>ni</td>
+        <td>
+          hi
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/hi.png?v=1704832301051"
+            class="mnemonics"
+            width="160"
+            height="80"
+          />
+        </td>
+        <td>hi</td>
+        <td>mi
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Screenshot%202024-01-09%20at%2010.17.14%E2%80%AFPM.png?v=1704858115264"
+            class="mnemonics"
+            width="160"
+            height="80"
+          />
+        </td>
+        <td>ri</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>u</td>
+        <td>ku</td>
+        <td>su</td>
+        <td>tsu</td>
+        <td>nu</td>
+        <td>
+          hu/fu
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/hu.png?v=1704840117539"
+            class="mnemonics"
+            width="80"
+            height="80"
+          />
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/fu.png?v=1704840117789"
+            class="mnemonics"
+            width="150"
+            height="80"
+          />
+        </td>
+        <td>mu</td>
+        <td>yu</td>
+        <td>ru
+        <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Screenshot%202024-01-09%20at%2010.15.23%E2%80%AFPM.png?v=1704856540439"
+            class="mnemonics"
+            width="160"
+            height="80"
+          />
+          
+          (literally only makes sense in the context of ろ)
+        </td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>e</td>
+        <td>ke</td>
+        <td>se</td>
+        <td>te
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Screenshot%202024-01-09%20at%2010.12.31%E2%80%AFPM.png?v=1704856362356"
+            class="mnemonics"
+            width="80"
+            height="80"
+          />
+          テ (just looks similar)
+        
+        </td>
+        <td>ne</td>
+        <td>he 
+          
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Screenshot%202024-01-09%20at%2010.50.41%E2%80%AFPM.png?v=1704858651636"
+            class="mnemonics"
+            width="80"
+            height="80"
+          />
+        
+          
+          
+        </td>
+        <td>me</td>
+        <td>-</td>
+        <td>re</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>o</td>
+        <td>ko [don't got nothing yet..., but it's a classic]</td>
+        <td>so</td>
+        <td>to</td>
+        <td>no</td>
+        <td>ho</td>
+        <td>mo
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Screenshot%202024-01-09%20at%2010.17.18%E2%80%AFPM.png?v=1704858091767"
+            class="mnemonics"
+            width="160"
+            height="80"
+          />
+        
+        </td>
+        <td>yo ま (ma) よ (yo) </td>
+        <td>ro 
+        <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Screenshot%202024-01-09%20at%2010.15.19%E2%80%AFPM.png?v=1704856538917"
+            class="mnemonics"
+            width="160"
+            height="80"
+          />
+        </td>
+        <td>(w)o を (i got something in my foot, in my と)</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    
+    
+    
+
+    <h3>Tricky ones</h3>
+    The issue with trying to use purely mnemonics is that your "image" might
+    line up with some other characters. For me it helped to study the similar looking ones together, actually. 
+    This helped avoid having this "mnemonic overlap" as much as possible:
+    <h4>Similar looking Hiragana:</h4>
+
+    * honestly, I take the similar looking ones and make them into words
+    "moky" (smash player) も き
+    (ver) sa chi
+    he ha ha hooooo は (ha) ほ (ho)
+    た (ta) な (na) (like ta da....lol)
+    
+    stacking mnemonics helps too, for example:
+    よ (yo) よ (yo) ま (ma), よ can also stand alone as yoyo though
+    
+    i just find it easier - it helps me bring them together, and once I know よ I get ま for free, and also my brain is more likely to remember the phrase "yoyoma" for both of them. It's like a 1/2 shot you remember one of your two mnemonics - they work together
+    
+    <ul> Everything <br/>
+      <li>
+        "Versace":<br/>
+        ver - さ - ち
+      </li>
+      <li>
+        "Yo yo ma":<br/>
+        ま
+      </li>
+    </ul>
+    
+    <hr/>
+    
+    <ul>
+      <li>
+        Face looking bois: <br />
+        <img
+          src="https://sixtysixmag.com/wp-content/uploads/Versace_logo.png"
+          alt="Versace"
+          width="50"
+          height="60"
+        />
+        <br />
+
+        Verさち ((ver) sa/chi)
+
+        <ul>
+          <li>
+            Kinda close: き (ki) 
+            <ul>
+              <li>
+                (and も (mo) and even ま (ma) are close to き (ki) )
+                <ul>
+                  <li>ま (ma) vs ほ (ho)</li>
+                  <li>ま (ma) よ (yo) </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Also ら (ra) looks like their cousin</li>
+        </ul>
+      </li>
+      <li>
+        Fishing ones: <br />
+        れ re / わ wa / ね ne
+        <br />
+        (ready to reel in a fish / waaaa / net a fish)
+      </li>
+      <li>
+        Sideways U looking ones:
+        <br />
+        う(u) vs つ (tsu)
+      </li>
+      <li>
+        "Knee" looking ones:<br />
+        The mnemonic for に (ni) is supposed to be "knee", but if you are
+        thinking about "knee" any of these could also look like knees:
+        <ul>
+          <li>い (i)</li>
+          <li>り (ri) </li>
+          <li></li>
+          <li>け (ke) (line + ones, aka line + yo yo ma) は (ha) ほ (ho) --- they're not "knee looking ones" at all!!</li>
+        </ul>
+      </li>
+      <li>
+        T bois:<br />
+        た (ta) な (na) ---- hmmmm
+      </li>
+      <li>
+        3 looking boys:<br />
+        る (ru) ろ (ro)
+      </li>
+      <li>
+        Weird T-ish shapes:<br />
+        て (te) そ (so) 
+      </li>
+      <li>
+        n variations:<br />
+        ん (n) え (e) (kind れ(re) too)
+      </li>
+      <li>
+        "No" shapes:<br/>
+の (no)   
+        ゐ (wi) 
+        
+        め (me.. word for eye lmao) ぬ (nu) (eyeballs on the menu)
+        
+        when they reach their final forms
+        あ (a)  お (o)
+      </li>
+      <li>
+Toes:<br/>
+と を
+      </li>
+      
+    </ul>
+
+    <h4>Similar looking Katakana:</h4>
+    <ul>
+      <li>
+        Smiley Boys:
+        <br />
+        A clever way to remember these two is to picture their hiragana
+        counterparts つ (tsu) and し (shi). ツ tsu / シ shi
+      </li>
+      <li>
+        One eye-d smiley boys:<br />
+        ソ so / ン n
+      </li>
+    </ul>
+
+    <hr />
+    
+    <h3>
+      ふ and ん
+    </h3>
+    
+    You might see the pronunciation for this one as either "hu" or "fu", just be aware of that. Also ん can be sometimes written as n/m
+    
+        <hr/>
+
+    <h3>Alternate looking characters</h3>
+    
+    https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/sa duplicates.png?v=1704836437966
+
+    <table>
+      <tr>
+        <td>さ</td>
+        <td>
+          <img
+      src="https://1.bp.blogspot.com/-VxXW7jKyRTM/Ti8P11ihgmI/AAAAAAAAABM/sj04z9ToyZg/s1600/SA.JPG"
+      width="30"
+      height="30"
+    />
+        </td>
+      </tr>
+      <tr>
+        <td>り</td>
+        <td>
+          <img
+            src="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Hiragana_letter_Ri.svg.png?v=1704854293605"
+          width="30"
+      height="30"
+               />
+        </td>
+        
+        "fu （ふ）", "so （そ）" and "yu （ゆ）". 
+        
+        さ、き、そ、り
+        
+        
+        
+        こ 
+        
+        え, う
+        
+        
+        https://www.reddit.com/r/LearnJapanese/comments/13cfah/appearance_of_written_versus_typed_hiragana/
+        
+        https://www.thoughtco.com/different-writing-styles-for-the-hiragana-ki-and-sa-2027869
+        
+        
+      </tr>
+    </table>
+
+    (also note, sometimes characters are just straight up drawn differently,
+    like look up さ, it can be
+    
+    )
+
+    <hr />
+    <h3>Font practice:</h3>
+    It's really important to practice looking at the characters in different
+    fonts, especially if you're trying to learn the mnemonics. Serifs vs
+    sans-serif can throw you off if you're not ready for it (just look at お!),
+    so make sure to study both! Press the buttons to change the fonts, and then
+    study the wikipedia charts I stole below (or even go back up and read the
+    previous section with the new font):
+    <br />
+    <br />
+    <h4>Change font:</h4>
+    <button onclick="javascript:changeFont('Times New Roman, serif')">
+      Times New Roman (serif)
+    </button>
+    <button onclick="javascript:changeFont('Arial, sans-serif')">
+      Arial (sans-serif)
+    </button>
+
+    <!--   <button onclick="javascript:changeFont('Verdana, sans-serif')">
+    Verdana (sans-serif)
+  </button>
+  <button onclick="javascript:changeFont('Tahoma, sans-serif')">
+    Tahoma (sans-serif)
+  </button>
+  <button onclick="javascript:changeFont('Trebuchet MS, sans-serif')">
+    Trebuchet MS (sans-serif)
+  </button>
+  <button onclick="javascript:changeFont('Georgia, serif')">
+    Georgia (serif)
+  </button>
+  <button onclick="javascript:changeFont('Garamond, serif')">
+    Garamond (serif)
+  </button>
+  <button onclick="javascript:changeFont('Courier New, monospace')">
+    Courier New (monospace)
+  </button>
+  <button onclick="javascript:changeFont('Brush Script MT, cursive')">
+    Brush Script MT (cursive)
+  </button> -->
+
+    <br />
+    <br />
+    <table align="right" style="margin-left: 1em">
+      <tbody>
+        <tr>
+          <td>
+            <table
+              class="wikitable"
+              style="vertical-align: top; padding: 2px; text-align: center"
+            >
+              <caption>
+                Katakana used in Japanese orthography
+              </caption>
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th><i>a</i></th>
+                  <th><i>i</i></th>
+                  <th><i>u</i></th>
+                  <th><i>e</i></th>
+                  <th><i>o</i></th>
+                </tr>
+                <tr>
+                  <th title="No onset">∅</th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%A2" class="mw-redirect" title="ア"
+                        >ア</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%A4" class="mw-redirect" title="イ"
+                        >イ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%A6" class="mw-redirect" title="ウ"
+                        >ウ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%A8" class="mw-redirect" title="エ"
+                        >エ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%AA" class="mw-redirect" title="オ"
+                        >オ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>k</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%AB" class="mw-redirect" title="カ"
+                        >カ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%AD" class="mw-redirect" title="キ"
+                        >キ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%AF" class="mw-redirect" title="ク"
+                        >ク</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%B1" class="mw-redirect" title="ケ"
+                        >ケ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%B3" class="mw-redirect" title="コ"
+                        >コ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>g</i></th>
+                  <td><big>ガ</big></td>
+                  <td><big>ギ</big></td>
+                  <td><big>グ</big></td>
+                  <td><big>ゲ</big></td>
+                  <td><big>ゴ</big></td>
+                </tr>
+                <tr>
+                  <th><i>s</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%B5" class="mw-redirect" title="サ"
+                        >サ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%B7" class="mw-redirect" title="シ"
+                        >シ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%B9" class="mw-redirect" title="ス"
+                        >ス</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%BB" class="mw-redirect" title="セ"
+                        >セ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%BD" class="mw-redirect" title="ソ"
+                        >ソ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>z</i></th>
+                  <td><big>ザ</big></td>
+                  <td><big>ジ</big></td>
+                  <td><big>ズ</big></td>
+                  <td><big>ゼ</big></td>
+                  <td><big>ゾ</big></td>
+                </tr>
+                <tr>
+                  <th><i>t</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%BF" class="mw-redirect" title="タ"
+                        >タ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%81" class="mw-redirect" title="チ"
+                        >チ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%84" class="mw-redirect" title="ツ"
+                        >ツ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%86" class="mw-redirect" title="テ"
+                        >テ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%88" class="mw-redirect" title="ト"
+                        >ト</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>d</i></th>
+                  <td><big>ダ</big></td>
+                  <td><big>ヂ</big></td>
+                  <td><big>ヅ</big></td>
+                  <td><big>デ</big></td>
+                  <td><big>ド</big></td>
+                </tr>
+                <tr>
+                  <th><i>n</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%8A" class="mw-redirect" title="ナ"
+                        >ナ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%8B" class="mw-redirect" title="ニ"
+                        >ニ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%8C" class="mw-redirect" title="ヌ"
+                        >ヌ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%8D" class="mw-redirect" title="ネ"
+                        >ネ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%8E" class="mw-redirect" title="ノ"
+                        >ノ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>h</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%8F" class="mw-redirect" title="ハ"
+                        >ハ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%92" class="mw-redirect" title="ヒ"
+                        >ヒ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%95" class="mw-redirect" title="フ"
+                        >フ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%98" class="mw-redirect" title="ヘ"
+                        >ヘ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%9B" class="mw-redirect" title="ホ"
+                        >ホ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>b</i></th>
+                  <td><big>バ</big></td>
+                  <td><big>ビ</big></td>
+                  <td><big>ブ</big></td>
+                  <td><big>ベ</big></td>
+                  <td><big>ボ</big></td>
+                </tr>
+                <tr>
+                  <th><i>p</i></th>
+                  <td><big>パ</big></td>
+                  <td><big>ピ</big></td>
+                  <td><big>プ</big></td>
+                  <td><big>ペ</big></td>
+                  <td><big>ポ</big></td>
+                </tr>
+                <tr>
+                  <th><i>m</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%9E" class="mw-redirect" title="マ"
+                        >マ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%9F" class="mw-redirect" title="ミ"
+                        >ミ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%A0" class="mw-redirect" title="ム"
+                        >ム</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%A1" class="mw-redirect" title="メ"
+                        >メ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%A2" class="mw-redirect" title="モ"
+                        >モ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>y</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%A4" class="mw-redirect" title="ヤ"
+                        >ヤ</a
+                      ></big
+                    >
+                  </td>
+                  <td
+                    data-sort-value=""
+                    style="
+                      background: #ececec;
+                      color: #2c2c2c;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    class="table-na"
+                  >
+                    <sup id="cite_ref-:0_4-3" class="reference"
+                      ><a href="#cite_note-:0-4">[4]</a></sup
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%A6" class="mw-redirect" title="ユ"
+                        >ユ</a
+                      ></big
+                    >
+                  </td>
+                  <td
+                    data-sort-value=""
+                    style="
+                      background: #ececec;
+                      color: #2c2c2c;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    class="table-na"
+                  >
+                    <sup id="cite_ref-:0_4-4" class="reference"
+                      ><a href="#cite_note-:0-4">[4]</a></sup
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%A8" class="mw-redirect" title="ヨ"
+                        >ヨ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>r</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%A9" class="mw-redirect" title="ラ"
+                        >ラ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%AA" class="mw-redirect" title="リ"
+                        >リ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%AB" class="mw-redirect" title="ル"
+                        >ル</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%AC" class="mw-redirect" title="レ"
+                        >レ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%AD" class="mw-redirect" title="ロ"
+                        >ロ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>w</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%AF" class="mw-redirect" title="ワ"
+                        >ワ</a
+                      ></big
+                    >
+                  </td>
+                  <td
+                    data-sort-value=""
+                    style="
+                      background: #ececec;
+                      color: #2c2c2c;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    class="table-na"
+                  >
+                    <big
+                      ><a href="/wiki/%E3%83%B0" class="mw-redirect" title="ヰ"
+                        >ヰ</a
+                      ></big
+                    >
+                  </td>
+                  <td
+                    data-sort-value=""
+                    style="
+                      background: #ececec;
+                      color: #2c2c2c;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    class="table-na"
+                  >
+                    <sup id="cite_ref-:0_4-5" class="reference"
+                      ><a href="#cite_note-:0-4">[4]</a></sup
+                    >
+                  </td>
+                  <td
+                    data-sort-value=""
+                    style="
+                      background: #ececec;
+                      color: #2c2c2c;
+                      vertical-align: middle;
+                      text-align: center;
+                    "
+                    class="table-na"
+                  >
+                    <big
+                      ><a href="/wiki/%E3%83%B1" class="mw-redirect" title="ヱ"
+                        >ヱ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%B2" class="mw-redirect" title="ヲ"
+                        >ヲ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="6">
+                    <big
+                      ><a href="/wiki/%E3%83%B3" class="mw-redirect" title="ン"
+                        >ン</a
+                      ></big
+                    >
+                    <b>(<i>n</i>)</b>
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="6">Functional marks <br />and diacritics</th>
+                </tr>
+                <tr>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%83" class="mw-redirect" title="ッ"
+                        >ッ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%83%BD" class="mw-redirect" title="ヽ"
+                        >ヽ</a
+                      ></big
+                    >
+                  </td>
+                  <td colspan="2">
+                    <big
+                      ><a
+                        href="/wiki/Dakuten"
+                        class="mw-redirect"
+                        title="Dakuten"
+                        >゛</a
+                      ></big
+                    >
+                  </td>
+                  <td colspan="2">
+                    <big
+                      ><a
+                        href="/wiki/Dakuten"
+                        class="mw-redirect"
+                        title="Dakuten"
+                        >゜</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <style data-mw-deduplicate="TemplateStyles:r981673959">
+              .mw-parser-output .legend {
+                page-break-inside: avoid;
+                break-inside: avoid-column;
+              }
+              .mw-parser-output .legend-color {
+                display: inline-block;
+                min-width: 1.25em;
+                height: 1.25em;
+                line-height: 1.25;
+                margin: 1px 0;
+                text-align: center;
+                border: 1px solid black;
+                background-color: transparent;
+                color: black;
+              }
+              .mw-parser-output .legend-text {
+              }</style
+            ><span
+              class="legend-color"
+              style="
+                background-color: #ececec;
+                color: black;
+                border: 1px solid darkgray;
+              "
+              >&nbsp;</span
+            >
+            Unused, extinct, or obsolete
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="0" cellpadding="0" style="padding: 2px; margin-left: 1em">
+      <tbody>
+        <tr>
+          <td>
+            <table>
+              <caption>
+                Basic hiragana characters
+              </caption>
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th><i>a</i></th>
+                  <th><i>i</i></th>
+                  <th><i>u</i></th>
+                  <th><i>e</i></th>
+                  <th><i>o</i></th>
+                </tr>
+                <tr>
+                  <th title="No lead consonant">∅</th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%82" class="mw-redirect" title="あ"
+                        >あ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%84" class="mw-redirect" title="い"
+                        >い</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%86" class="mw-redirect" title="う"
+                        >う</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%88" class="mw-redirect" title="え"
+                        >え</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%8A" class="mw-redirect" title="お"
+                        >お</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>k</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%8B" class="mw-redirect" title="か"
+                        >か</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%8D" class="mw-redirect" title="き"
+                        >き</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%8F" class="mw-redirect" title="く"
+                        >く</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%91" class="mw-redirect" title="け"
+                        >け</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%93" class="mw-redirect" title="こ"
+                        >こ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>s</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%95" class="mw-redirect" title="さ"
+                        >さ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%97" class="mw-redirect" title="し"
+                        >し</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%99" class="mw-redirect" title="す"
+                        >す</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%9B" class="mw-redirect" title="せ"
+                        >せ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%9D" class="mw-redirect" title="そ"
+                        >そ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>t</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%9F" class="mw-redirect" title="た"
+                        >た</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%A1" class="mw-redirect" title="ち"
+                        >ち</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%A4" class="mw-redirect" title="つ"
+                        >つ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%A6" class="mw-redirect" title="て"
+                        >て</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%A8" class="mw-redirect" title="と"
+                        >と</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>n</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%AA" class="mw-redirect" title="な"
+                        >な</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%AB" class="mw-redirect" title="に"
+                        >に</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%AC" class="mw-redirect" title="ぬ"
+                        >ぬ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%AD" class="mw-redirect" title="ね"
+                        >ね</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%AE" class="mw-redirect" title="の"
+                        >の</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>h</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%AF" class="mw-redirect" title="は"
+                        >は</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%B2" class="mw-redirect" title="ひ"
+                        >ひ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%B5" class="mw-redirect" title="ふ"
+                        >ふ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%B8" class="mw-redirect" title="へ"
+                        >へ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%BB" class="mw-redirect" title="ほ"
+                        >ほ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>m</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%BE" class="mw-redirect" title="ま"
+                        >ま</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%BF" class="mw-redirect" title="み"
+                        >み</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%80" class="mw-redirect" title="む"
+                        >む</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%81" class="mw-redirect" title="め"
+                        >め</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%82" class="mw-redirect" title="も"
+                        >も</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>y</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%84" class="mw-redirect" title="や"
+                        >や</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <sup id="cite_ref-obsolete_6-0" class="reference"
+                      ><a href="#cite_note-obsolete-6">[6]</a></sup
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%86" class="mw-redirect" title="ゆ"
+                        >ゆ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <sup id="cite_ref-obsolete_6-1" class="reference"
+                      ><a href="#cite_note-obsolete-6">[6]</a></sup
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%88" class="mw-redirect" title="よ"
+                        >よ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>r</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%89" class="mw-redirect" title="ら"
+                        >ら</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%8A" class="mw-redirect" title="り"
+                        >り</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%8B" class="mw-redirect" title="る"
+                        >る</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%8C" class="mw-redirect" title="れ"
+                        >れ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%8D" class="mw-redirect" title="ろ"
+                        >ろ</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th><i>w</i></th>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%8F" class="mw-redirect" title="わ"
+                        >わ</a
+                      ></big
+                    >
+                  </td>
+                  <td style="background: #ddddf6">
+                    <big
+                      ><a href="/wiki/%E3%82%90" class="mw-redirect" title="ゐ"
+                        >ゐ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <sup id="cite_ref-obsolete_6-2" class="reference"
+                      ><a href="#cite_note-obsolete-6">[6]</a></sup
+                    >
+                  </td>
+                  <td style="background: #ddddf6">
+                    <big
+                      ><a href="/wiki/%E3%82%91" class="mw-redirect" title="ゑ"
+                        >ゑ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%92" class="mw-redirect" title="を"
+                        >を</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="6">
+                    <big
+                      ><a href="/wiki/%E3%82%93" class="mw-redirect" title="ん"
+                        >ん</a
+                      ></big
+                    >
+                    <b>(<i>n</i>)</b>
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="6">
+                    Main functional marks <br />and
+                    <a
+                      href="/wiki/Diacritics"
+                      class="mw-redirect"
+                      title="Diacritics"
+                      >diacritics</a
+                    >
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%81%A3" class="mw-redirect" title="っ"
+                        >っ</a
+                      ></big
+                    >
+                  </td>
+                  <td>
+                    <big
+                      ><a href="/wiki/%E3%82%9D" class="mw-redirect" title="ゝ"
+                        >ゝ</a
+                      ></big
+                    >
+                  </td>
+                  <td colspan="2">
+                    <big
+                      ><a
+                        href="/wiki/Dakuten"
+                        class="mw-redirect"
+                        title="Dakuten"
+                        >゛</a
+                      ></big
+                    >
+                  </td>
+                  <td colspan="2">
+                    <big
+                      ><a
+                        href="/wiki/Dakuten"
+                        class="mw-redirect"
+                        title="Dakuten"
+                        >゜</a
+                      ></big
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr></tr>
+      </tbody>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <hr />
+              
+              yoon is pretty straightforwards - take the consonant sound and then just add the sound of the y guy
+         
+              <h3>Dakuon</h3>
+              
+              k → G
+              s → z
+              t → d
+              
+              h → b
+              circle → p
+
+              
+              problem children:
+              
+              shi, chi, tsu (both in ....oh wow, they've always been problem children!)
+              
+              and fu to a degree
+              
+              (in both dakuon and yoon)
+              
+    <hr/>
+
+    When you're ready, also make sure to study going from sound → character.
+    This isn't necessary, but can help strengthen the mental connections for
+    characters/sounds when reading as well (mnemonics help for looking at a
+    character and recognizing it, but what aboout being able to draw a "knee" or
+    "netting a fish"?). This will be necessary for writing though, but at that
+    point you'll also need to learn stroke order.
+  </body>
+</html>
