@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/5242095f-0107-4b06-9c06-7ae5e31ffd4e/Japanese_Katakana_TSU.png"
+    />
+
+    <title>Hiragana/Katakana Chart</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/hiragana/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/hiragana/script.js" defer></script>
+
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+  </head>
+  <body>
+    <h1>Nico's Hiragana Site</h1>
+
+    <h3>
+      This is a little website I put together explaining how I learned the
+      Hiragana characters.
+    </h3>
+
+    <details>
+      <summary>Methodology/Thinking</summary>
+      <md-block src="markdownFiles/hiragana/methodology.md"></md-block>
+    </details>
+
+    <md-block src="markdownFiles/hiragana/notes.md"></md-block>
+
+    <h3>My Mnemonic Chart</h3>
+
+    These are the ones that I use personally, or that I thought were strong
+    enough to be used:
+    <details>
+      <summary><i>How to know if a mnemonic works for you</i></summary>
+      Test yourself when you haven't studied in a while and see what comes back
+      to you:
+      <ul>
+        <li>
+          If nothing, the mnemonic probably wasn't strong enough visually.
+        </li>
+        <li>If the wrong picture, it probably wasn't unique enough visually</li>
+        <li>
+          If the wrong sound, it might be too confusing of a mnemonic. Mnemonics
+          where you have to remember both an adjective and a noun are big
+          offenders in this department.
+          <ul>
+            <li>
+              One slightly confusing one I use is "21" for み - the sound is
+              "mi", and the mnemonic is the phrase "I turned 21, that's
+              <b>me</b>", but it's not "me" as in め. It's just because we
+              pronounce "me" as "mi" in english unfortunately, so typing out み
+              I'll mess up sometimes. Reading though luckily is unaffected
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+    <md-block src="markdownFiles/hiragana/mnemonics.md"></md-block>
+    <md-block src="markdownFiles/hiragana/dakuonYoon.md"></md-block>
+    <md-block src="markdownFiles/hiragana/stylizing.md"></md-block>
+
+    <button onclick="javascript:changeFont('Times New Roman, serif')">
+      Times New Roman (serif)
+    </button>
+    <button onclick="javascript:changeFont('Arial, sans-serif')">
+      Arial (sans-serif)
+    </button>
+    <hr />
+
+    <md-block src="markdownFiles/hiragana/extras.md"></md-block>
+  </body>
+</html>
